@@ -1,10 +1,10 @@
 #### JS stack test - brandOS
-##### Create an web application using ExpressJS and ReactJS.
+##### Create an SPA web application using ExpressJS for the backend and ReactJS for the frontend. You can chose to render pages directly from express if you dont want to work with react.
 - The app should start with a login screen which uses google OAuth signin.
-- after signin, the user should be taken to a page which has an input box. this input box will accept a flat tree. on clicking a submit button, it should call an api on the expressjs backend, which will compute an actual tree. this tree should be printed on the screen in a prettified format. example as below.
-```
+- After signing in, the user should be taken to a page which has an input box. this input box will accept a flat tree. on clicking a submit button, it should call an api on the expressjs backend, which will compute an actual tree. this tree should be printed on the screen in a prettified format. example as below.
 
-const flatTree = [
+```
+const inputFlatTree = [
     { id: 1, children: [2, 3] },
     { id: 2, children: [4, 5, 6] },
     { id: 3, children: [7] },
