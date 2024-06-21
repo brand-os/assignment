@@ -65,3 +65,9 @@ const inputFlatTree = [
 
 #### how to submit answers, 
 - fork this repo, and create a PR to this.
+
+#![output][outputImage]
+
+
+
+[outputImage]: image.png
